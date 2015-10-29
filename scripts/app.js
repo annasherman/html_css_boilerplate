@@ -15,9 +15,9 @@
     var word7 = prompt('Major metropolitan area')
     var contentContainer = document.getElementById('content');
 
-    contentContainer.innerHTML = "Now this is a story all about how \n my " + word1 + " got flipped turned upside down \n" +
-    "And I'd like to take a " + word2 + " just sit right there \n I'll tell you how I became the " + word3 + " of " + word4 + " called " +
-    word5 + "\n In " + word6 +" "+ word7 + " born and raised...."
+    contentContainer.innerHTML = "Now this is a story all about how <br> My " + word1 + " got flipped turned upside down <br>" +
+    "And I'd like to take a " + word2 + " just sit right there <br> I'll tell you how I became the " + word3 + " of " + word4 + " called " +
+    word5 + "<br> In " + word6 +" "+ word7 + " born and raised...."
 
     //Now, this is a story all about how
 // My life got flipped-turned upside down
