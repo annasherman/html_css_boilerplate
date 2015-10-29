@@ -6,12 +6,33 @@
     //  alert('hey hey hey');
     statusReport('hey hey hey');
 
-    var username = prompt('What is your name?');
-    var mission = prompt('What is your mission?');
-    var friend = prompt('Who is your companion?');
+    var word1 = prompt('Give me a noun');
+    var word2 = prompt('Length of time?');
+    var word3 = prompt('A type of royalty?');
+    var word4 = prompt('Choose a city, town, village, suburb, or other living construct');
+    var word5 = prompt('A name');
+    var word6 = prompt('Choose a cardinal direction?');
+    var word7 = prompt('Major metropolitan area')
     var contentContainer = document.getElementById('content');
 
-    contentContainer.innerHTML = username + ' and their best friend ' + friend + ' are on a mission to ' + mission; 
+    contentContainer.innerHTML = "Now this is a story all about how \n my " + word1 + " got flipped turned upside down \n" +
+    "And I'd like to take a " + word2 + " just sit right there \n I'll tell you how I became the " + word3 + " of " + word4 + " called " +
+    word5 + "\n In " + word6 +" "+ word7 + " born and raised...."
+
+    //Now, this is a story all about how
+// My life got flipped-turned upside down
+// And I'd like to take a minute
+// Just sit right there
+// I'll tell you how I became the prince of a town called Bel Air
+//
+// In west Philadelphia born and raised
+// On the playground was where I spent most of my days
+// Chillin' out maxin' relaxin' all cool
+// And all shootin some b-ball outside of the school
+// When a couple of guys who were up to no good
+// Started making trouble in my neighborhood
+// I got in one little fight and my mom got scared
+// She said 'You're movin' with your auntie and uncle in Bel Air'
      //for gathering the HTML inside of the 'content'. if theres no content, we get an empty string.
 
   }
