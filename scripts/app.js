@@ -7,11 +7,11 @@
     statusReport('hey hey hey');
 
     var word1 = prompt('Give me a noun');
-    var word2 = prompt('Length of time?');
+    var word2 = prompt('Length of time (hour, second, month, day, year, etc.)?');
     var word3 = prompt('A type of royalty?');
     var word4 = prompt('Choose a city, town, village, suburb, or other living construct');
-    var word5 = prompt('A name');
-    var word6 = prompt('Choose a cardinal direction?');
+    var word5 = prompt('A place name');
+    var word6 = prompt('Choose a cardinal direction');
     var word7 = prompt('Major metropolitan area')
     var contentContainer = document.getElementById('content');
 
