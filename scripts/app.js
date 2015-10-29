@@ -8,9 +8,10 @@
 
     var username = prompt('What is your name?');
     var mission = prompt('What is your mission?');
+    var friend = prompt('Who is your companion?');
     var contentContainer = document.getElementById('content');
 
-    contentContainer.innerHTML = username + ' is on a mission to ' + mission; 
+    contentContainer.innerHTML = username + ' and their best friend ' + friend + ' are on a mission to ' + mission; 
      //for gathering the HTML inside of the 'content'. if theres no content, we get an empty string.
 
   }
