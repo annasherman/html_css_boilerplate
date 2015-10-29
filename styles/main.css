@@ -1,3 +1,9 @@
 body{
-  background-color: rgb(41, 205, 136);
+  background-color: rgba(54, 187, 131, 0.64);
+  font-family:helvetica;
+  font-size: 2em;
+}
+
+#content{
+  text-align: center;
 }
