@@ -1,10 +1,11 @@
 body{
   background-color: rgba(54, 187, 131, 0.64);
   font-family:helvetica;
-  font-size: 3.5em;
+  font-size: 4em;
 }
 
 #content{
   text-align: center;
-  color: rgba(211, 238, 241, 0.93)
+  color: rgba(211, 238, 241, 0.93);
+  padding-top: 1em;
 }

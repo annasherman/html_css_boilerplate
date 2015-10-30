@@ -12,12 +12,22 @@
     var word4 = prompt('Choose a city, town, village, suburb, or other living construct');
     var word5 = prompt('A place name');
     var word6 = prompt('Choose a cardinal direction');
-    var word7 = prompt('Major metropolitan area')
+    var word7 = prompt('Major metropolitan area');
     var contentContainer = document.getElementById('content');
 
     contentContainer.innerHTML = "Now this is a story all about how <br> My " + word1 + " got flipped turned upside down <br>" +
-    "And I'd like to take a " + word2 + " just sit right there <br> I'll tell you how I became the " + word3 + " of " + word4 + " called " +
+    "And I'd like to take a " + word2 + " just sit right there <br> I'll tell you how I became the " + word3 + " of a town called " +
     word5 + "<br> In " + word6 +" "+ word7 + " born and raised...."
+  }
+
+    // var gifContainer = document.getElementById('gif');
+    //
+    // if (word7 === 'Philadelphia'||'philadelphia'){
+    // <script language="javascript"
+    //         type="text/javascript">
+    // gifContainer.innerHTML = "<img src='http://i.giphy.com/HX3lSnGXZnaWk.gif'>";
+    // </script>
+
 
     //Now, this is a story all about how
 // My life got flipped-turned upside down
@@ -34,9 +44,3 @@
 // I got in one little fight and my mom got scared
 // She said 'You're movin' with your auntie and uncle in Bel Air'
      //for gathering the HTML inside of the 'content'. if theres no content, we get an empty string.
-
-  }
-    function statusReport(message){
-      console.log(message);
-      return message;
-    }
